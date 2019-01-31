@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import '@/icons'
+import userApi from '@/api/user'
+
+Vue.prototype.$userApi = userApi 
 
 Vue.config.productionTip = false
 
